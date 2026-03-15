@@ -13,18 +13,18 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
+    name: "Milind Pandit"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
     type: person                        # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: ""
+    tagline: "MEMS Researcher | IMEC"
     # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by HugoBlox Kit. Easily create your personal academic website."
+    description: "MEMS researcher specializing in novel semiconductor technologies"
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: "MakeOwnable"              # Twitter/X handle for Twitter Cards (without @)
+      linkedin: ""              # Twitter/X handle for Twitter Cards (without @)
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -96,8 +96,8 @@ hugoblox:
     # Call-to-action button
     cta:
       enable: false
-      text: ""
-      url: ""
+      text: "Contact"
+      url: "/contact/"
 
   # ────────────────────────────────────────────────────────────────────────────
   # FOOTER
@@ -116,7 +116,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   copyright:
     # Copyright notice - supports {year}, {name}, {license} placeholders
-    notice: "© {year} {name}. This work is licensed under {license}"
+    notice: "© {2026} {Milind Pandit}. This work is licensed under {license}"
     license:
       type: cc                          # cc | custom
       allow_derivatives: false
@@ -166,7 +166,7 @@ hugoblox:
       enable: true
     # Academic citations
     citations:
-      style: apa                        # apa | mla | chicago | ieee
+      style: ieee                        # apa | mla | chicago | ieee
 
   # ────────────────────────────────────────────────────────────────────────────
   # SEARCH
@@ -232,7 +232,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   repository:
     enable: false
-    url: ""                             # e.g., https://github.com/username/repo
+    url: "https://github.com/milind-pandit/milind-pandit.github.io"  # e.g., https://github.com/username/repo
     branch: main
     content_dir: content
 

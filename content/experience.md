@@ -14,6 +14,7 @@ sections:
     content:
       username: me
     design:
+      css_class: wide
       # Hugo date format
       date_format: '2006'
       # Education or Experience section first?
@@ -22,20 +23,17 @@ sections:
     content:
       title: Teaching & Supervision
       text: |-
-        **Postgraduate supervision and mentoring** (2025 – present), IMEC
-        - Alex Ciocau — Master's thesis student, KU Leuven & IMEC
-        - Maarten Luypaert — Master's thesis student, KU Leuven & IMEC
-
-        **Engineering Lecturer, "MEMS Sensors and Actuators"** (2019)<br>
-        Bucsmore summer school, Fitzwilliam College, University of Cambridge. Lectured on the fundamentals of MEMS sensors and actuators to fifty undergraduate students.
-
-        **Laboratory Teaching Assistant, "Experimental Engineering: Spectrum Analysis"** (2017)<br>
-        Engineering Department, University of Cambridge.
-
-        **Laboratory Teaching Assistant, "Technical Design Course for Engineers"** (2016)<br>
-        Engineering Department, University of Cambridge.
+        - **Postgraduate supervision and mentoring** (2025 – present), IMEC<br>
+          Alex Ciocau and Maarten Luypaert, Master's thesis students (KU Leuven & IMEC)
+        - **Engineering Lecturer, "MEMS Sensors and Actuators"** (2019)<br>
+          Bucsmore summer school, Fitzwilliam College, University of Cambridge. Lectured fifty undergraduate students on the fundamentals of MEMS sensors and actuators.
+        - **Laboratory Teaching Assistant, "Experimental Engineering: Spectrum Analysis"** (2017)<br>
+          Engineering Department, University of Cambridge.
+        - **Laboratory Teaching Assistant, "Technical Design Course for Engineers"** (2016)<br>
+          Engineering Department, University of Cambridge.
     design:
       columns: '1'
+      css_class: wide two-col
   - block: markdown
     content:
       title: Conferences
@@ -50,6 +48,7 @@ sections:
         - **IEEE International Frequency Control Symposium** (2017, 2018) — poster and oral presentations; finalist, Best Poster Award 2017
     design:
       columns: '1'
+      css_class: wide two-col
   - block: markdown
     content:
       title: Service
@@ -61,18 +60,25 @@ sections:
         - **College student union representative** (2016 – 2018): Hughes Hall, University of Cambridge
     design:
       columns: '1'
+      css_class: wide two-col
   - block: resume-skills
     content:
       title: Technical Skills
       username: me
+    design:
+      columns: 3
+      css_class: wide
   - block: resume-awards
     content:
       title: Grants & Awards
       username: me
     design:
       date_format: '2006'
+      css_class: wide
   - block: resume-languages
     content:
       title: Languages
       username: me
+    design:
+      css_class: wide
 ---

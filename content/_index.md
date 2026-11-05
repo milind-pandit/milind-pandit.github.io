@@ -54,14 +54,34 @@ sections:
   - block: collection
     id: papers
     content:
-      title: Recent Publications
-      text: ''
+      title: Recent Journal Articles
+      count: 5
       filters:
         folders:
           - publications
-        exclude_featured: false
+        publication_type: article-journal
+      archive:
+        enable: true
+        text: All journal articles
+        link: publications/#journal-articles
     design:
       view: citation
+      css_class: pubs
+  - block: collection
+    content:
+      title: Recent Conference Proceedings
+      count: 5
+      filters:
+        folders:
+          - publications
+        publication_type: paper-conference
+      archive:
+        enable: true
+        text: All conference proceedings
+        link: publications/#conference-proceedings
+    design:
+      view: citation
+      css_class: pubs
   - block: cta-card
     demo: true # Only display this section in the HugoBlox Kit demo site
     content:

@@ -133,7 +133,7 @@ languages:
     label: Fluent
   - name: Dutch
     level: 2
-    label: A2
+    label: A2 level
 
 awards:
   - title: Listen2future (Horizon Europe, CHIPS JU)

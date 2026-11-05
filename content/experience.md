@@ -23,8 +23,6 @@ sections:
       title: Teaching & Supervision
       text: |-
         **Postgraduate supervision and mentoring** (2025 – present), IMEC
-        - Chinmay Pendse — Doctoral thesis student, KU Leuven & IMEC
-        - Loulou Vos — Master's thesis student, TU Delft & IMEC
         - Alex Ciocau — Master's thesis student, KU Leuven & IMEC
         - Maarten Luypaert — Master's thesis student, KU Leuven & IMEC
 

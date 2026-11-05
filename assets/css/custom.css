@@ -1,0 +1,92 @@
+/* ---------------------------------------------------------------
+   Wider, more readable layout for sections tagged `wide`
+   (used on the Experience page via `design.css_class`).
+   --------------------------------------------------------------- */
+
+/* Use more of the screen on laptops/desktops */
+.wide .max-w-prose,
+.wide .max-w-4xl {
+  max-width: 72rem !important;
+}
+
+/* Larger body text */
+.wide .prose {
+  font-size: 1.125rem;
+  line-height: 1.75;
+  max-width: none !important;
+}
+
+/* Experience cards: bigger role titles, dates and organisations */
+.blox-resume-experience.wide h3 {
+  font-size: 1.5rem;
+}
+.blox-resume-experience.wide .text-sm {
+  font-size: 1rem;
+}
+.blox-resume-experience.wide a.text-primary-600,
+.blox-resume-experience.wide p.text-primary-600 {
+  font-size: 1.125rem;
+}
+
+/* Skills: normal-case, larger text, more space between columns */
+.blox-resume-skills.wide .grid {
+  gap: 2rem 3rem;
+}
+.blox-resume-skills.wide .skills-name {
+  font-size: 1.125rem;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+/* Awards: larger summaries, two cards per row on wide screens */
+.blox-resume-awards.wide .text-sm {
+  font-size: 1rem;
+}
+.blox-resume-awards.wide p {
+  font-size: 1.0625rem;
+}
+@media (min-width: 1024px) {
+  .blox-resume-awards.wide .w-full.flex.flex-col.gap-6 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  /* Long lists flow into two columns */
+  .wide.two-col .prose ul {
+    columns: 2;
+    column-gap: 3rem;
+  }
+  .wide.two-col .prose li {
+    break-inside: avoid;
+  }
+}
+
+/* Languages: larger labels */
+.blox-resume-languages.wide .text-sm {
+  font-size: 1rem;
+}
+
+/* Align the tops of two-column lists */
+.wide.two-col .prose ul {
+  margin-top: 0;
+}
+.wide.two-col .prose li {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* ---------------------------------------------------------------
+   Publication lists (sections tagged `pubs`)
+   --------------------------------------------------------------- */
+.pubs .max-w-3xl {
+  max-width: 64rem;
+}
+.pubs .mt-16 {
+  margin-top: 1rem;
+}
+.pubs .pub-list-item {
+  font-size: 1.125rem;
+  line-height: 1.65;
+}
+.pubs .pub-list-item > a {
+  font-weight: 600;
+}

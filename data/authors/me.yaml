@@ -2,115 +2,140 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
+  display: Milind Pandit
+  given: Milind
+  family: Pandit
+  alternate: ''
+  pronunciation: ''
+  pronouns: ''
 postnominals:
   - PhD
-  - MIEEE
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: "🔬"
+role: R&D Engineer
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  Milind Pandit is an R&D Engineer at IMEC in Leuven, Belgium, working on novel
+  micro sensor and actuator technologies with applications in health and
+  wearables. He is currently developing a piezoelectric micromachined ultrasound
+  transducer (pMUT) platform for ultrasound-based neural stimulation. He received
+  his PhD in Microsystems Engineering from the University of Cambridge, and
+  previously worked on flexible pMUTs for cardiac monitoring at Pulsify Medical
+  and on high-resolution MEMS gravimeters at Silicon Microgravity.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: IMEC
+    url: https://www.imec-int.com/
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:pandit01@imec.be
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
   - icon: brands/github
-    url: https://github.com/example
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://github.com/milind-pandit
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Micromachined Ultrasound Transducers (pMUT / cMUT)
+  - Ultrasound Neurostimulation
+  - MEMS Inertial Sensors
+  - Nonlinear and Coupled Resonators
+  - Wearable Health Monitoring
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: PhD in Microsystems Engineering
+    institution: University of Cambridge
+    start: 2015-10-01
+    end: 2019-09-30
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
+      Thesis: *Towards ultra-high resolution mode-localised MEMS sensors*. Supervisor: Prof. Ashwin Seshia.
+      Investigated MEMS coupled resonators for high-resolution, temperature-insensitive gravimetric applications,
+      and researched fundamental resonator limits of drift, nonlinearity, noise, and resolution.
+  - degree: BASc (with Distinction) in Electrical and Computer Engineering
+    institution: University of British Columbia
+    start: 2011-09-01
     end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+    summary: |
+      Bachelor's thesis on artificial muscle technology based on coiled nylon for prosthetic and medical use.
+      International Leader of Tomorrow Award.
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: R&D Engineer
+    org: IMEC
+    start: 2025-01-01
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      Leuven, Belgium.
+      - Leading development of pMUTs for neurostimulation, characterizing and benchmarking PZT and AlScN technologies.
+      - Led design and integration of a pMUT-based cuff for gesture recognition in a funded project.
+      - Evaluated cMUT viability for cardiac health monitoring for a new startup (FEM simulations, electrical and acoustic measurements).
+      - Mentoring master's and doctoral students in MUT research.
+  - role: Senior MEMS Development Engineer
+    org: Pulsify Medical
+    start: 2021-01-01
+    end: 2025-01-01
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Leuven, Belgium.
+      - Contributed to the EU-funded Listen2future project advancing flexible, high-frequency pMUTs for medical applications.
+      - Coordinated technology transfer from an R&D line to a commercial foundry for a first-of-a-kind large-area piezo-on-glass process.
+      - Led MEMS simulation, design, process development, and characterization of flexible ultrasound cardiac monitoring patches.
+  - role: MEMS Design and Analytics Engineer
+    org: Silicon Microgravity
+    start: 2019-10-01
+    end: 2021-01-01
+    summary: |
+      Cambridge, UK.
+      - Led the surface gravimeter team to create a first-of-a-kind field prototype for underground cavity detection.
+      - Improved MEMS accelerometer resolution by 50x through system design optimization, testing, and machine-learning-based calibration.
 
 skills:
-  - name: Technical Skills
+  - name: Hardware & Characterization
     items:
-      - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
+      - label: Ultrasound characterization (Precision Acoustics UMS, Verasonics)
+      - label: Laser Doppler vibrometry (Polytec LDV), RF analysis, Zurich Instruments MFLI
+      - label: Cleanroom & packaging (spin coating, wedge bonding)
+  - name: Simulation & Programming
     items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
+      - label: COMSOL, K-Wave, Lumerical MODE, SPICE
+      - label: MATLAB/Simulink, Python, C++, LabVIEW, Arduino
+      - label: Layout & PCB (KLayout, Tanner, Altium)
+  - name: Project Management
+    items:
+      - label: Jira, Confluence, Wrike, Clarity
 
 languages:
   - name: English
     level: 5
-    label: Native
-  - name: Spanish
+    label: First language
+  - name: Kannada
     level: 4
     label: Fluent
+  - name: Hindi
+    level: 4
+    label: Fluent
+  - name: Dutch
+    level: 2
+    label: A2
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
+  - title: Listen2future (Horizon Europe, CHIPS JU)
+    awarder: European Union
+    date: "2023-01-01"
+    summary: Contributed to writing, executing and managing a pan-European grant on acoustic sensor solutions with integrated digital technologies (2023–2026), as part of Pulsify Medical and IMEC.
+    icon: hero/banknotes
+  - title: PhD Studentship and Jishnu Rao Trust Award
+    awarder: Silicon Microgravity & Dept. of Engineering, University of Cambridge
+    date: "2015-10-01"
+    summary: Funding to pursue PhD research (2015–2018).
+    icon: hero/academic-cap
+  - title: NSERC Undergraduate Student Research Award
+    awarder: NSERC & University of British Columbia
+    date: "2015-01-01"
+    summary: Funding for undergraduate research internships.
+    icon: hero/trophy
+  - title: International Research Experience Program Scholarship
+    awarder: University of British Columbia
+    date: "2013-01-01"
+    summary: Funding for undergraduate research at TU Darmstadt, Germany.
+    icon: hero/trophy
+  - title: International Leader of Tomorrow Award
+    awarder: University of British Columbia
+    date: "2011-09-01"
     icon: hero/trophy

@@ -16,9 +16,11 @@ sections:
       username: me
       text: ''
       # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download Academic CV
-        url: uploads/academic-cv.pdf
+      buttons:
+        - text: Academic CV
+          url: uploads/academic-cv.pdf
+        - text: Industry CV
+          url: uploads/industry-cv.pdf
       headings:
         about: ''
         education: ''

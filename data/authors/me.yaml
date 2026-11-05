@@ -30,6 +30,12 @@ links:
   - icon: at-symbol
     url: mailto:pandit01@imec.be
     label: E-mail Me
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/milind-pandit-b1649796/
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=vaptxcIAAAAJ&hl=en
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0002-7862-7984
   - icon: brands/github
     url: https://github.com/milind-pandit
 
@@ -43,6 +49,7 @@ interests:
 education:
   - degree: PhD in Microsystems Engineering
     institution: University of Cambridge
+    year: 2015 – 2019
     start: 2015-10-01
     end: 2019-09-30
     summary: |
@@ -51,6 +58,7 @@ education:
       and researched fundamental resonator limits of drift, nonlinearity, noise, and resolution.
   - degree: BASc (with Distinction) in Electrical and Computer Engineering
     institution: University of British Columbia
+    year: 2011 – 2015
     start: 2011-09-01
     end: 2015-05-31
     summary: |

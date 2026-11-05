@@ -105,13 +105,6 @@ experience:
       Cambridge, UK.
       - Led the surface gravimeter team to create a first-of-a-kind field prototype for underground cavity detection.
       - Improved MEMS accelerometer resolution by 50x through system design optimization, experimental testing, and machine-learning-based calibration, reducing environmental noise pickup and temperature-induced drift.
-  - role: PhD Researcher – Inertial Sensing and Resonator Dynamics
-    org: Silicon Microgravity
-    start: 2015-10-01
-    end: 2019-10-01
-    summary: |
-      Cambridge, UK.
-      - Optimized coupled resonator dynamics through finite element modeling and validated results with custom experimental setups featuring temperature control and low-noise electronics.
 
 skills:
   - name: Hardware & Characterization

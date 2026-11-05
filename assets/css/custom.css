@@ -90,3 +90,42 @@
 .pubs .pub-list-item > a {
   font-weight: 600;
 }
+
+/* ---------------------------------------------------------------
+   Languages: simple list (see layouts/.../resume-languages override)
+   --------------------------------------------------------------- */
+.lang-list {
+  width: 100%;
+  max-width: 32rem;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+.lang-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid rgb(229 231 235);
+  font-size: 1.125rem;
+}
+.lang-item:last-child {
+  border-bottom: none;
+}
+.lang-name {
+  font-weight: 600;
+  color: rgb(17 24 39);
+}
+.lang-level {
+  color: rgb(75 85 99);
+}
+.dark .lang-item {
+  border-bottom-color: rgb(55 65 81);
+}
+.dark .lang-name {
+  color: rgb(243 244 246);
+}
+.dark .lang-level {
+  color: rgb(156 163 175);
+}
